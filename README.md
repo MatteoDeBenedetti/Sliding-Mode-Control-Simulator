@@ -3,21 +3,23 @@
 This project involves a graphical interface in Matlab to simulate a sliding mode controller on a double integrator system.
 The simulator allows to change and tune various parameters as shown in the following image.
 
-img gui
+![gui](https://user-images.githubusercontent.com/41896432/49181804-a6729980-f358-11e8-9e3e-9ab126c03647.PNG)
 
 Two different type of inputs are available: step signal and sinusoidal signals.
 
-img step no psi
+![step_nopsi](https://user-images.githubusercontent.com/41896432/49181808-a70b3000-f358-11e8-9efa-07fba953b06f.png)
 
-img sin no psi
+![sin_nopsi](https://user-images.githubusercontent.com/41896432/49181807-a70b3000-f358-11e8-9744-04736abb2780.png)
 
 The simulation is actually executed by an underlying simulink model.
 
-simulink img
+![simulink](https://user-images.githubusercontent.com/41896432/49181805-a6729980-f358-11e8-91f5-c656b9f7dd4a.PNG)
 
 Finally a technique called "Boundary Layer" is included to limit chattering, as explained in this paper: Using a boundary layer technique to reduce chatter in sliding mode controllers, J. Y. Hung, R. M. Nelms
 
-img psinopsizoomed
+On the left the smoothing effect of the boundary layer can be compared with the plots on the right where it is not used.
+![zoomed_psivsnopsi](https://user-images.githubusercontent.com/41896432/49181717-614e6780-f358-11e8-83d1-bb339452f66e.PNG)
+
 
 ## INSTRUCTIONS:  
 keep files organized as downloaded  
